@@ -37,7 +37,7 @@ def largestPrimeFactor(number : BigInt) : BigInt = {
   largestPrimeFactor(number, BigInt(1), BigInt(2))
 }
 
-//println(largestPrimeFactor2(BigInt(600851475143L)))
+println(largestPrimeFactor(BigInt(600851475143L)))
 
 def test {
   def assertLargestPrimeFactor(num : BigInt, expected : BigInt) {
@@ -66,4 +66,4 @@ def test {
   }
   test_largestPrimeFactor
 }
-test
+//test
